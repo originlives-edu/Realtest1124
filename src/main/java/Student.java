@@ -3,7 +3,7 @@ import assessments.AssessmentFeed;
 import java.util.ArrayList;
 import java.util.List;
 
-import static assessments.AssessmentFeed.getCIDs;
+import static assessments.AssessmentFeed.*;
 
 public class Student{
     private String cid;//should be list of cids
@@ -28,7 +28,12 @@ public class Student{
 //
   //  }
     public calunweightedav(cid){
-        Listsize(cid)
+        return sum(cid)/size(cid)
+    }
+    public AIcheckug(cid){
+        if (PROGRAM_MARK-20>AI_PROJECT);
+        else return false
+
     }
 
 
